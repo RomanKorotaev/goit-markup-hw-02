@@ -1,3 +1,4 @@
+/* ============= RESET STYLES ============= */
 .link {
   text-decoration: none;
 }
@@ -9,3 +10,133 @@
 .address {
   font-style: normal;
 }
+/* ============= END RESET STYLES ============= */
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /*--third-font: "Oleo Script", cursive;*/
+  --header-color: #212121;
+  --content-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+header {
+  background: #ffffff;
+}
+
+main {
+  background: #e5e5e5;
+}
+
+/* ============= HEADER ============= */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+/* НЕ ЗНАЮ НУЖНЫ ЛИ ЭТИ ЭФФЕКТЫ НА ЛОГОТИПЕ, НО НА ВСЯКИЙ СЛУЧАЙ СДЕЛАЛ. ПРИМЕНЯЕТСЯ И В ШАПКЕ И В ФУТЕРЕ*/
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-studio-header {
+  color: var(--header-color);
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.navigation-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.navigation-links:hover,
+.navigation-links:focus {
+  color: var(--accent-color);
+}
+
+.navigation-links > .current {
+  color: var(--accent-color);
+  font-size: 66;
+}
+
+.contact-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--content-color);
+}
+
+.contact-links:hover,
+.contact-links:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* ============= END HEADER ============= */
+
+.hero-backgr {
+  background: #2f303a;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.order-service-btm {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* =============  ADVANTAGES SECTION  ============= */
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--content-color);
+}
+
+/* ============= END ADVANTAGES SECTION ============= */
