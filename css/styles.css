@@ -137,7 +137,6 @@ header {
 }
 
 .advantages-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -172,7 +171,6 @@ header {
 }
 
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -187,7 +185,6 @@ footer {
 }
 .address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -195,7 +192,6 @@ footer {
 }
 
 .footer-contacts {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -241,7 +237,6 @@ footer {
 }
 
 .works-description {
-  font-weight: 400;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
