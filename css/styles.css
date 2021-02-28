@@ -17,6 +17,7 @@
   --content-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --silver-backgr: #f5f4fa;
 }
 
 body {
@@ -123,7 +124,7 @@ header {
   color: var(--accent-color);
 }
 
-/* =============  ADVANTAGES SECTION  ============= */
+/* =============  STUDIO. ADVANTAGES SECTION  ============= */
 
 .advantages-title {
   font-weight: 700;
@@ -142,9 +143,9 @@ header {
   color: var(--content-color);
 }
 
-/* ============= END ADVANTAGES SECTION ============= */
+/* ============= END  STUDIO. ADVANTAGES SECTION ============= */
 
-/* ============= SECTION: WHAT WE DO and OUR TEAM ============= */
+/* =============  STUDIO. SECTION: WHAT WE DO and OUR TEAM ============= */
 .secondary-title {
   font-weight: 700;
   font-size: 36px;
@@ -152,6 +153,13 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
+}
+.team-section {
+  background: var(--silver-backgr);
+}
+
+.team-card > li {
+  background: var(--white-color);
 }
 
 .team-item {
@@ -172,7 +180,7 @@ header {
   color: var(--content-color);
 }
 
-/* ============= END SECTION: WHAT WE DO and OUR TEAM ============= */
+/* ============= END  STUDIO. SECTION: WHAT WE DO and OUR TEAM ============= */
 
 /* ============= FOOTER ============= */
 footer {
@@ -195,4 +203,43 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* ============= END FOOTER ============= */ ;
+/* ============= END FOOTER ============= */
+
+/* ============= PORTFOLIO. SECTION OUR WORKS ============= */
+
+.filter-btm {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  background: var(--silver-backgr);
+}
+
+.filter-btm:hover,
+.filter-btm:focus {
+  color: var(--white-color);
+  background: var(--accent-color);
+}
+
+.work-card > li {
+  background: var(--white-color);
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+
+.works-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
