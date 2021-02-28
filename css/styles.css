@@ -18,6 +18,7 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --silver-backgr: #f5f4fa;
+  --dark-backgr: #2f303a;
 }
 
 body {
@@ -37,7 +38,7 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* НЕ ЗНАЮ НУЖНЫ ЛИ ЭТИ ЭФФЕКТЫ НА ЛОГОТИПЕ, НО НА ВСЯКИЙ СЛУЧАЙ СДЕЛАЛ. ПРИМЕНЯЕТСЯ И В ШАПКЕ И В ФУТЕРЕ*/
@@ -92,7 +93,7 @@ header {
 /* ============= END HEADER ============= */
 
 .hero-backgr {
-  background: #2f303a;
+  background: var(--dark-backgr);
 }
 
 .main-title {
@@ -181,7 +182,7 @@ header {
 
 /* ============= FOOTER ============= */
 footer {
-  background: #2f303a;
+  background: var(--dark-backgr);
 }
 .address {
   font-style: normal;
