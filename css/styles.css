@@ -23,6 +23,7 @@
 body {
   font-family: var(--main-font);
   background: #e5e5e5;
+  color: var(--content-color);
 }
 
 header {
@@ -140,7 +141,6 @@ header {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--content-color);
 }
 
 /* ============= END  STUDIO. ADVANTAGES SECTION ============= */
@@ -177,7 +177,6 @@ header {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--content-color);
 }
 
 /* ============= END  STUDIO. SECTION: WHAT WE DO and OUR TEAM ============= */
@@ -201,6 +200,11 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
 
 /* ============= END FOOTER ============= */
@@ -231,7 +235,7 @@ footer {
 .works-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--header-color);
 }
@@ -239,7 +243,9 @@ footer {
 .works-description {
   font-weight: 400;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--header-color);
+  color: var(--content-color);
 }
+
+/* ============= TND  PORTFOLIO. SECTION OUR WORKS ============= */
