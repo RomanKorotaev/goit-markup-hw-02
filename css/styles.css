@@ -7,9 +7,6 @@
   list-style: none;
 }
 
-.address {
-  font-style: normal;
-}
 /* ============= END RESET STYLES ============= */
 
 :root {
@@ -19,18 +16,16 @@
   --header-color: #212121;
   --content-color: #757575;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
 }
 
 body {
   font-family: var(--main-font);
+  background: #e5e5e5;
 }
 
 header {
-  background: #ffffff;
-}
-
-main {
-  background: #e5e5e5;
+  background: var(--white-color);
 }
 
 /* ============= HEADER ============= */
@@ -54,7 +49,7 @@ main {
 }
 
 .logo-studio-footer {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .navigation-links {
@@ -105,10 +100,11 @@ main {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .order-service-btm {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -116,7 +112,15 @@ main {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order-service-btm:hover,
+.order-service-btm:focus {
+  color: var(--accent-color);
 }
 
 /* =============  ADVANTAGES SECTION  ============= */
@@ -135,8 +139,60 @@ main {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
   color: var(--content-color);
 }
 
 /* ============= END ADVANTAGES SECTION ============= */
+
+/* ============= SECTION: WHAT WE DO and OUR TEAM ============= */
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--content-color);
+}
+
+/* ============= END SECTION: WHAT WE DO and OUR TEAM ============= */
+
+/* ============= FOOTER ============= */
+footer {
+  background: #2f303a;
+}
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ============= END FOOTER ============= */ ;
